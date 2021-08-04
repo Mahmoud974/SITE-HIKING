@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap");
+.row > * {
+  padding-right: calc(var(--bs-gutter-x) / 0);
+  padding-left: calc(var(--bs-gutter-x) / 0);
+  margin-top: var(--bs-gutter-y);
+}
+/*# sourceMappingURL=code.css.map */

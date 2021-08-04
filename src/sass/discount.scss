@@ -1,0 +1,34 @@
+.fondDis {
+  @include carre($brownFonce);
+
+  button {
+    font-weight: bold;
+    @include button($brown, #fff, 35%);
+  }
+}
+.imageJanu {
+  padding: 0;
+  @include carre($brown);
+
+  button {
+    font-weight: bold;
+    @include button(#ffb050, #fff, 35%);
+  }
+}
+
+.imageDis {
+  img {
+    width: 100%;
+  }
+}
+.fondJanu {
+  img {
+    width: 100%;
+  }
+}
+
+// .bgBrown {
+//   // background-image: url("../images/dechi-1\ .png");
+
+//   // height: 90px;
+// }

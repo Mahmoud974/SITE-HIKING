@@ -1,0 +1,16 @@
+footer {
+  i {
+    font-size: 60px;
+  }
+  background-color: $brownFonce;
+  height: 400px;
+  display: flex;
+
+  .sisi-footer {
+    padding-right: 50px;
+  }
+  .foot2 {
+    display: flex;
+    text-align: left;
+  }
+}

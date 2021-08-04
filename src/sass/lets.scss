@@ -1,0 +1,49 @@
+// LETS GO
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) / -2);
+  margin-left: calc(var(--bs-gutter-x) / -2);
+  flex-direction: row;
+  align-content: flex-end;
+  justify-content: center;
+}
+.letss {
+  height: 800px;
+  margin-top: -80px;
+  margin-bottom: 80px;
+  .sisi {
+    h2 {
+      color: #e40fe4;
+    }
+  }
+
+  .showme {
+    @include button($brownFonce, #fff, 15%);
+    font-size: 22px;
+  }
+
+  .card {
+    border: 0px;
+
+    text-align: left;
+    padding: 40px 10px;
+
+    img {
+      transition: 1s ease-out, height 1s linear;
+      filter: grayscale(90%);
+      &:hover {
+        filter: grayscale(0%);
+      }
+    }
+
+    .card-body {
+      background-color: $brownFonce;
+      height: 150px;
+      color: #fff;
+    }
+  }
+}
